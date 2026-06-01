@@ -13,3 +13,8 @@ const FIREBASE_CONFIG = {
 if (!FIREBASE_CONFIG.apiKey || !FIREBASE_CONFIG.projectId) {
     console.warn("⚠️  Firebase configuration incomplete. Please set environment variables or update firebase-config.js");
 }
+
+// Admin emails for role-based access control
+const ADMIN_EMAILS = [
+    // Add admin email addresses here
+];
